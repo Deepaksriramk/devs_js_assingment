@@ -105,12 +105,12 @@ function display(count){
 }
 function movingfor(){
   const pict = document.getElementById("image");
-  margin += 20;
+  margin += 25;
   pict.style.marginLeft = margin + "px";
 }
 function movingback(){
   const pict = document.getElementById("image");
-  margin -= 20;
+  margin -= 25;
   pict.style.marginLeft = margin + "px";
 }
 function movingreset(){
