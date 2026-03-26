@@ -105,13 +105,11 @@ function display(count){
 }
 function movingfor(){
   const pict = document.getElementById("image");
-  margin += 25;
-  pict.style.marginLeft = margin + "px";
+margin = Math.min(margin + 20, window.innerWidth - 120);  pict.style.marginLeft = margin + "px";
 }
 function movingback(){
   const pict = document.getElementById("image");
-  margin -= 25;
-  pict.style.marginLeft = margin + "px";
+margin = Math.min(margin - 20, window.innerWidth - 120);  pict.style.marginLeft = margin + "px";
 }
 function movingreset(){
   const pict = document.getElementById("image");
